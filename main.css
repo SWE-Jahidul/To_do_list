@@ -1,0 +1,92 @@
+
+body{
+  background: powderblue;
+}
+
+body ,input,button{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    background: #25b99a;
+    box-shadow:0px 2px 4px rgba(44,62,80 ,0.15);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding-top: 22px;
+}
+
+header input {
+
+           width: 94%;
+           height: 50px;
+           background-color: (255,255,255,0.2);
+           font-size: 15px;
+           font-family: 'Courier New', Courier, monospace;
+           text-indent: 20px;
+           font-weight: 400;
+           border: 0px; 
+           border-bottom-left-radius: 18px;
+           border-top-left-radius: 18px;
+           border-top-right-radius: 18px;
+           border-bottom-right-radius: 18px;
+           border: 0px;
+           box-shadow: none;
+           outline: none;
+           padding: 0px 60px 0 0;
+          -ms-appearance: none;
+          -webkit-appearance: none;
+          -moz-appearance:    none;
+          -o-appearance: none;
+          appearance: none;
+}
+
+
+
+
+  header input ::-webkit-input-placeholder { 
+    color: pink;
+  }
+  header input ::-moz-placeholder { 
+    color: pink;
+  }
+  header input :-ms-input-placeholder { 
+    color: pink;
+  }
+  header input :-moz-placeholder { 
+    color: pink;
+  }
+
+
+
+  header button {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 22px;
+      right: 15px;
+      z-index: 2;
+      border: 0px;
+      background:black;
+      box-shadow: none;
+      outline: none;
+     color: azure;
+      border-radius: 25px;
+      -ms-appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance:    none;
+      -o-appearance: none;
+      appearance: none;
+}
+
+
+header button add {
+    
+  
+}
